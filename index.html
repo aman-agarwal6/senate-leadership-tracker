@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e1116">
+  <title>Senate leadership vote · Election Night ’26</title>
+  <link rel="stylesheet" href="./leadership.css">
+  <script src="./leadership.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="back-link" href="./">Election Night ’26</a>
+      <span class="topbar-label">U.S. Senate</span>
+      <a class="topbar-directory" href="#senators" hidden>Senator directory <span aria-hidden="true">↓</span></a>
+    </div>
+  </header>
+
+  <main class="page">
+    <header class="page-header">
+      <div>
+        <p class="section-label">Democratic caucus · 120th Congress</p>
+        <h1>Senate leadership vote</h1>
+        <p class="lede">Track where senators stand in the contest between Chuck Schumer and Chris Van Hollen.</p>
+      </div>
+      <div class="date-block" id="date-block" hidden>
+        <span id="as-of"></span>
+        <span id="election-date"></span>
+      </div>
+    </header>
+
+    <p class="loading" id="loading" role="status">Loading the vote tracker…</p>
+    <section class="load-error" id="load-error" hidden>
+      <h2>The vote tracker couldn’t load.</h2>
+      <p>Check that the election app is running, then reload the page.</p>
+      <button type="button" class="button" id="retry">Reload tracker</button>
+    </section>
+
+    <div id="tracker" hidden>
+      <div class="dashboard">
+        <section class="panel chamber-panel" aria-labelledby="chamber-heading">
+          <header class="panel-header chamber-header">
+            <h2 id="chamber-heading">Caucus map</h2>
+            <div class="segment" role="group" aria-label="Map view">
+              <button type="button" data-view="public" aria-pressed="true">Public positions</button>
+              <button type="button" data-view="research" aria-pressed="false">Research leans</button>
+              <button type="button" data-view="scenario" aria-pressed="false">My scenario</button>
+            </div>
+          </header>
+          <div class="candidates" id="candidates" aria-label="Public candidate counts"></div>
+          <div class="chamber" id="chamber">
+            <div class="chamber-center" aria-hidden="true">
+              <strong id="seat-total"></strong>
+              <span id="seat-caption"></span>
+            </div>
+            <div class="seats" id="seats" role="group" aria-label="Senators, arranged by public position. Use left and right arrows to browse seats."></div>
+          </div>
+          <p class="map-key" id="map-key"></p>
+          <div class="legend" id="legend" aria-label="Filter by public position"></div>
+          <p class="caucus-note" id="caucus-note"></p>
+        </section>
+
+        <aside class="panel senator-panel" id="senator-panel" aria-labelledby="senator-heading">
+          <header class="panel-header detail-header">
+            <h2 id="senator-heading">Senator profile</h2>
+            <span id="profile-state" class="state-chip"></span>
+          </header>
+          <div id="senator-detail"></div>
+        </aside>
+      </div>
+
+      <section class="panel scenario-panel" aria-labelledby="scenario-heading">
+        <div>
+          <h2 id="scenario-heading">Build a scenario</h2>
+          <p>Use the senator profiles to try your own picks. Your selections stay in this browser.</p>
+        </div>
+        <div class="scenario-summary" id="scenario-summary" aria-live="polite"></div>
+        <button type="button" class="button" id="reset-scenario" hidden>Reset picks</button>
+      </section>
+
+      <section class="panel roster-panel" id="senators" aria-labelledby="roster-heading">
+        <header class="panel-header roster-header">
+          <div>
+            <h2 id="roster-heading">Senator directory</h2>
+            <p id="result-count" aria-live="polite"></p>
+          </div>
+          <div class="filters">
+            <label class="search-field">
+              <span class="sr-only">Search by senator or state</span>
+              <input type="search" id="search" placeholder="Search senator or state" autocomplete="off">
+            </label>
+            <label>
+              <span class="sr-only">Filter by public position</span>
+              <select id="position-filter"></select>
+            </label>
+            <label>
+              <span class="sr-only">Filter by research lean</span>
+              <select id="lean-filter">
+                <option value="all">Any research lean</option>
+                <option value="schumer">Leans Schumer</option>
+                <option value="van-hollen">Leans Van Hollen</option>
+                <option value="none">No lean assigned</option>
+              </select>
+            </label>
+          </div>
+        </header>
+        <div class="table-wrap">
+          <table class="roster">
+            <thead>
+              <tr><th scope="col">Senator</th><th scope="col">State</th><th scope="col">Public position</th><th scope="col">Research lean</th></tr>
+            </thead>
+            <tbody id="roster"></tbody>
+          </table>
+          <p id="no-results" class="no-results" hidden>No senators match these filters. <button type="button" class="text-button" id="clear-filters">Clear filters</button></p>
+        </div>
+      </section>
+      <details class="panel methodology">
+        <summary>How the tracker counts votes</summary>
+        <div class="methodology-content">
+          <p><strong>Public positions</strong> reflect statements or attributed reporting. The candidates count in their own columns. A call for new leadership belongs under “Wants change / no pick” until the senator names a candidate.</p>
+          <p><strong>Research leans</strong> are tentative judgments based on the evidence in a senator’s profile. Policy alignment alone is too weak to assign a lean. The ballot is private, and public positions can change.</p>
+          <p><strong>Scenarios</strong> start with public candidate support and incorporate your picks. A pick for a conditional seat adds that seat to the scenario. Inferred leans are never added automatically.</p>
+          <p><strong>Source links</strong> are listed in each profile alongside the evidence they support.</p>
+        </div>
+      </details>
+    </div>
+  </main>
+</body>
+</html>

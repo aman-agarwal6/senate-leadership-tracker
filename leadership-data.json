@@ -1,0 +1,1072 @@
+{
+  "asOf": "2026-11-13",
+  "electionDate": "2026-12-01",
+  "caucusNote": "Dec. 1 is the reported date for the secret caucus ballot. A majority of those present and voting is required. If everyone votes, that is 28 of 55, or 29 of 56 if the Alaska seat goes to Mary Peltola and she participates.",
+  "methodology": "Public support includes the candidates and the latest explicit endorsement we found, with older statements dated in the individual notes. Calls for change without a named pick are separate. Research leanings are editorial judgments based on cited statements or working relationships. Low confidence signals are tentative, and names without enough evidence stay open. The secret ballot means the public tally can differ from the actual vote.",
+  "methodologySources": [
+    "rules",
+    "axios",
+    "ap",
+    "roster",
+    "drop",
+    "alaska",
+    "mpr",
+    "tnrTally"
+  ],
+  "sources": {
+    "ap": {
+      "label": "Associated Press · leadership challenge",
+      "url": "https://apnews.com/article/van-hollen-schumer-senate-democratic-leader-6d74c189cb6c065c9a810a1cf1a53436"
+    },
+    "axios": {
+      "label": "Axios · December 1 caucus vote",
+      "url": "https://www.axios.com/2026/11/13/schumer-van-hollen-senate-majority-leader"
+    },
+    "rules": {
+      "label": "Senate Democratic Conference rules · Rules III and V",
+      "url": "https://www.democrats.senate.gov/rules-for-the-democratic-conference"
+    },
+    "roster": {
+      "label": "Primary Democrats · public leadership statements",
+      "url": "https://primarydemocrats.com/leadership.html"
+    },
+    "drop": {
+      "label": "Drop Site News · leadership statements",
+      "url": "https://whipcount.dropsitenews.com/"
+    },
+    "alaska": {
+      "label": "Alaska Division of Elections · unofficial results",
+      "url": "https://www.elections.alaska.gov/election-results/e/"
+    },
+    "mpr": {
+      "label": "MPR News · Minnesota Senate transition",
+      "url": "https://www.mprnews.org/story/2026/11/03/when-amy-klobuchar-becomes-minnesota-governor-what-happens-to-her-us-senate-seat"
+    },
+    "van": {
+      "label": "Van Hollen · candidacy announcement",
+      "url": "https://www.vanhollen.senate.gov/news/press-releases/van-hollen-statement-on-running-for-majority-leader"
+    },
+    "roll": {
+      "label": "Roll Call · announcement and endorsements",
+      "url": "https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/"
+    },
+    "roll10": {
+      "label": "Roll Call · calls for new leadership",
+      "url": "https://rollcall.com/2026/11/10/rift-grows-among-senate-democrats-over-who-will-lead-in-majority/"
+    },
+    "roll4": {
+      "label": "Roll Call · senators-elect on leadership",
+      "url": "https://rollcall.com/2026/11/04/will-be-reelected-as-majority-leader-schumer-says/"
+    },
+    "flanagan": {
+      "label": "Peggy Flanagan · endorsement post",
+      "url": "https://x.com/peggyflanagan/status/2121245502545018920"
+    },
+    "baldwin": {
+      "label": "Tammy Baldwin · official statement",
+      "url": "https://www.baldwin.senate.gov/news/press-releases/-senator-baldwin-statement-on-election-for-senate-leadership"
+    },
+    "reed": {
+      "label": "Jack Reed · official statement",
+      "url": "https://www.reed.senate.gov/news/releases/reed-backs-schumer-for-majority-leader"
+    },
+    "king": {
+      "label": "Angus King · official statement",
+      "url": "https://www.king.senate.gov/newsroom/press-releases/king-backs-senator-charles-schumer-for-majority-leader"
+    },
+    "npr": {
+      "label": "NPR · challenge and endorsements",
+      "url": "https://www.nprillinois.org/2026-11-12/chris-van-hollen-says-he-will-challenge-chuck-schumer-for-senate-majority-leader"
+    },
+    "ap9": {
+      "label": "Associated Press · post-election leadership interviews",
+      "url": "https://apnews.com/article/7af2aff3e348c0dbb63d4550bcee600d"
+    },
+    "apOct": {
+      "label": "Associated Press · interviews before the midterms",
+      "url": "https://apnews.com/article/e63e4641ca5b7fca8b405c5330095f91"
+    },
+    "cnn10": {
+      "label": "CNN · Nov. 10 congressional reporting",
+      "url": "https://www.cnn.com/2026/11/10/politics/live-news/hegseth-impeachment-congress?post-id=cmwate9u600003b6ub51i8wv6"
+    },
+    "cnn12": {
+      "label": "CNN · Nov. 12 congressional reporting",
+      "url": "https://www.cnn.com/2026/11/12/politics/live-news/trump-congress"
+    },
+    "cbs": {
+      "label": "CBS News · leadership race and endorsements",
+      "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/"
+    },
+    "kaine": {
+      "label": "CBS News · Tim Kaine interview transcript",
+      "url": "https://www.cbsnews.com/news/tim-kaine-virginia-democrat-face-the-nation-06-28-2026/"
+    },
+    "msnow": {
+      "label": "MS NOW · leadership interviews",
+      "url": "https://www.ms.now/news/democrats-leadership-fight-historic-election-gains"
+    },
+    "ct": {
+      "label": "Connecticut Public · Blumenthal interview",
+      "url": "https://www.ctpublic.org/news/2026-11-11/blumenthal-schumer-senate-majority-leader"
+    },
+    "fox": {
+      "label": "Fox News · leadership race and Schatz statement",
+      "url": "https://www.foxnews.com/politics/van-hollen-challenges-schumer-senate-leadership-after-democratic-election-sweep"
+    },
+    "politico": {
+      "label": "Politico · leadership reporting",
+      "url": "https://www.yahoo.com/news/politics/articles/chuck-schumer-leadership-hopes-run-094500215.html"
+    },
+    "jackson": {
+      "label": "WGME · Troy Jackson interview",
+      "url": "https://wgme.com/news/local/troy-jackson-says-he-wont-support-senator-chuck-schumer-for-majority-leader-maine"
+    },
+    "jackson13": {
+      "label": "WMTW · Maine senators on the challenge",
+      "url": "https://www.wmtw.com/article/schumer-van-hollen-maine-senators-split-majority-leader/74423034"
+    },
+    "andrews": {
+      "label": "ABC affiliate · Annie Andrews interview",
+      "url": "https://abc6onyourside.com/news/nation-world/generational-change-sen-elect-annie-andrews-wont-back-chuck-schumer-for-majority-leader-south-carolina-politics"
+    },
+    "aj": {
+      "label": "Al Jazeera · senators discuss the leadership vote",
+      "url": "https://www.aljazeera.com/news/2026/11/5/division-among-us-democrats-over-schumers-leadership-role"
+    },
+    "wa": {
+      "label": "Spokesman-Review interviews · republished by Rep. Strickland",
+      "url": "https://strickland.house.gov/2026/11/05/impeach-trump-work-with-him-washington-democrats-consider-what-to-do-with-new-majorities-in-congress/"
+    },
+    "markey": {
+      "label": "Boston Globe · Ed Markey interview",
+      "url": "https://www.bostonglobe.com/2026/11/06/newsletters/markey-senate-leader-schumer-the-scrum/"
+    },
+    "coons": {
+      "label": "NPR · Chris Coons interview transcript",
+      "url": "https://www.npr.org/transcripts/nx-s1-6032682"
+    },
+    "welch": {
+      "label": "NBC5 · Peter Welch interview",
+      "url": "https://www.mynbc5.com/article/welch-democratic-senate-majority-leader/74404630"
+    },
+    "warner": {
+      "label": "Virginia Scope · Mark Warner press call",
+      "url": "https://www.virginiascope.com/warner-does-not-commit-to-schumer-as-democratic-leader/"
+    },
+    "colom": {
+      "label": "MS NOW · Scott Colom interview",
+      "url": "https://www.ms.now/news/scott-colom-interview-mississippi-schumer-senate-leader"
+    },
+    "wyden": {
+      "label": "Oregon Capital Chronicle · Ron Wyden press conference",
+      "url": "https://oregoncapitalchronicle.com/2026/11/09/oregons-u-s-sen-wyden-says-hell-use-most-powerful-senate-committee-to-undo-republican-cuts/"
+    },
+    "oregon": {
+      "label": "KGW · Oregon senators’ interviews",
+      "url": "https://www.kgw.com/article/news/politics/national-politics/medicare-for-all-debt-free-college-oregon-senators-reveal-plans-democratic-controlled-congress/283-542d2850-4219-4323-bd76-8452c71aef5c"
+    },
+    "fight": {
+      "label": "Vanity Fair · reporting on Senate strategy disagreements",
+      "url": "https://www.vanityfair.com/news/story/chuck-schumer-senate-fight-club"
+    },
+    "merkley": {
+      "label": "Van Hollen and Merkley · joint resolution",
+      "url": "https://www.vanhollen.senate.gov/news/press-releases/van-hollen-joins-merkley-colleagues-in-historic-call-for-us-recognition-of-palestinian-statehood"
+    },
+    "dscc": {
+      "label": "DSCC · Schiff and Blunt Rochester roles",
+      "url": "https://www.dscc.org/article/sens-kelly-schiff-and-blunt-rochester-to-serve-as-dscc-vice-chairs-for-2026-cycle/"
+    },
+    "leadership": {
+      "label": "Senate Democrats · 119th Congress leadership roster",
+      "url": "https://www.democrats.senate.gov/newsroom/press-releases/majority-leader-schumer-announces-senate-democratic-leadership-team-for-the-119th-congress"
+    },
+    "hamilton": {
+      "label": "JTA · Hamilton on his leadership preference",
+      "url": "https://www.jta.org/2026/11/12/politics/move-over-schumer-a-new-crop-of-democrats-are-arriving-in-the-senate"
+    },
+    "m4a": {
+      "label": "GovInfo · 2025 Medicare for All bill",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119s1506is"
+    },
+    "apcolom": {
+      "label": "Associated Press · Mississippi Senate election",
+      "url": "https://apnews.com/article/56c18f292a734443992f9466c3b0f346"
+    },
+    "tnrTally": {
+      "label": "The New Republic · Nov. 13 named tally",
+      "url": "https://newrepublic.com/post/217991/full-list-senators-back-chris-van-hollen-leader"
+    },
+    "chambers": {
+      "label": "99chambers · Nov. 13 statements and source links",
+      "url": "https://99chambers.app/senate/leadership/2027-democratic-leader"
+    },
+    "recruits": {
+      "label": "Washington Examiner · interviews with Senate campaigns",
+      "url": "https://www.washingtonexaminer.com/news/senate/4505725/chuck-schumer-prized-2026-recruits-wont-commit-keeping-him-senate-leader/"
+    },
+    "punchbowl": {
+      "label": "Punchbowl News · Heinrich and other senators",
+      "url": "https://punchbowl.news/article/washington/despite-grumbling-thune-poised-for-leadership/"
+    },
+    "factcheck": {
+      "label": "PolitiFact · post-election reporting on Turek",
+      "url": "https://politifact.com/factchecks/2026/nov/09/jon-stewart/chuck-schumer-senate-candidate-recruitment/"
+    },
+    "warren": {
+      "label": "New York Times interview · republished by GV Wire",
+      "url": "https://gvwire.com/2026/11/10/democrats-will-be-in-charge-of-congress-elizabeth-warren-has-a-plan-for-that/"
+    },
+    "schumer": {
+      "label": "Chuck Schumer · official Nov. 12 statement",
+      "url": "https://www.democrats.senate.gov/newsroom/press-releases/leader-schumer-statement-on-senate-democratic-leadership"
+    },
+    "padilla": {
+      "label": "The New Republic · leadership interviews",
+      "url": "https://newrepublic.com/post/217866/chuck-schumer-senate-leader-race-ice-thinner"
+    },
+    "colomInterview": {
+      "label": "The New Republic · Scott Colom interview coverage",
+      "url": "https://newrepublic.com/post/217987/scott-colom-pushes-back-schumer-recruit-mississippi-senate-win"
+    }
+  },
+  "senators": [
+    {
+      "name": "Mary Peltola",
+      "state": "AK",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Alaska’s Senate race is uncalled. Peltola is shown only as a possible member of the incoming caucus.",
+          "source": "alaska"
+        },
+        {
+          "source": "recruits",
+          "text": "Her campaign did not say how she would vote when asked in March."
+        }
+      ],
+      "role": "Candidate · race uncalled",
+      "conditional": true,
+      "analysis": "Her participation depends on the result and caucus eligibility. No leadership choice was verified."
+    },
+    {
+      "name": "Mark Kelly",
+      "state": "AZ",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Kelly said he plans to support Schumer after the midterm victories.",
+          "source": "roll10"
+        }
+      ]
+    },
+    {
+      "name": "Ruben Gallego",
+      "state": "AZ",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "NPR reported on Nov. 12 that Gallego publicly supports Schumer. He credits the incumbent for winning the majority.",
+          "source": "npr"
+        }
+      ]
+    },
+    {
+      "name": "Adam Schiff",
+      "state": "CA",
+      "party": "D",
+      "position": "no-public-position",
+      "evidence": [
+        {
+          "text": "Schiff served as a DSCC vice chair in the midterm cycle. No public leadership choice was found.",
+          "source": "dscc"
+        }
+      ],
+      "analysis": "His campaign role is a relationship to watch. It is too indirect to assign a lean."
+    },
+    {
+      "name": "Alex Padilla",
+      "state": "CA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "source": "padilla",
+          "text": "Padilla said he looked forward to the caucus discussion when asked about the leadership vote on Nov. 10."
+        }
+      ]
+    },
+    {
+      "name": "John Hickenlooper",
+      "state": "CO",
+      "party": "D",
+      "position": "no-public-position",
+      "evidence": [
+        {
+          "text": "No public position on this contest was found in the sources reviewed.",
+          "source": "drop"
+        }
+      ]
+    },
+    {
+      "name": "Michael Bennet",
+      "state": "CO",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Bennet declined to commit and said the caucus would have time to debate.",
+          "source": "cnn10"
+        }
+      ]
+    },
+    {
+      "name": "Chris Murphy",
+      "state": "CT",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Murphy did not commit to replacing Schumer when asked earlier this year.",
+          "source": "roster"
+        },
+        {
+          "text": "Reporting identifies Murphy and Van Hollen among senators pushing for a change in strategy.",
+          "source": "fight"
+        }
+      ],
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "Murphy worked with Van Hollen in a group pressing Schumer for a more confrontational strategy. This is a working alliance, with no declared vote."
+    },
+    {
+      "name": "Richard Blumenthal",
+      "state": "CT",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Blumenthal confirmed he would vote for Schumer after previously calling for new ideas and energy.",
+          "source": "ct"
+        }
+      ]
+    },
+    {
+      "name": "Chris Coons",
+      "state": "DE",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Coons said the caucus should have an open discussion about its future.",
+          "source": "coons"
+        }
+      ]
+    },
+    {
+      "name": "Lisa Blunt Rochester",
+      "state": "DE",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Blunt Rochester helped lead Senate Democratic campaign work. No public leadership choice was found.",
+          "source": "dscc"
+        },
+        {
+          "source": "chambers",
+          "text": "She credited Schumer for recruiting strong candidates in Nov. 2 reporting. She did not name a choice."
+        }
+      ],
+      "analysis": "Her praise of Schumer is a small signal toward continuity. Her campaign role alone does not indicate a vote.",
+      "lean": "schumer",
+      "leanConfidence": "low"
+    },
+    {
+      "name": "Jon Ossoff",
+      "state": "GA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Before the election, a senior campaign staffer declined to say whether Ossoff would support Schumer.",
+          "source": "aj"
+        }
+      ],
+      "analysis": "This is a campaign response. Ossoff’s own current preference is unverified."
+    },
+    {
+      "name": "Raphael Warnock",
+      "state": "GA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Warnock called for change and said he was willing to hear the case for anyone who wants to lead.",
+          "source": "msnow"
+        }
+      ],
+      "analysis": "His remarks leave both candidates in play."
+    },
+    {
+      "name": "Brian Schatz",
+      "state": "HI",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Schatz endorsed Schumer and said on Nov. 12 that he would vote for him in the caucus election.",
+          "source": "fox"
+        },
+        {
+          "text": "The public statement is recorded in the Nov. 13 whip count.",
+          "source": "roster"
+        }
+      ]
+    },
+    {
+      "name": "Mazie Hirono",
+      "state": "HI",
+      "party": "D",
+      "position": "no-public-position",
+      "evidence": [
+        {
+          "text": "Hirono cosponsored Medicare for All. No public choice in the leadership contest was found.",
+          "source": "m4a"
+        }
+      ],
+      "analysis": "Shared policy priorities are too broad to infer a private leadership vote."
+    },
+    {
+      "name": "Josh Turek",
+      "state": "IA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "source": "factcheck",
+          "text": "Turek declined to affirm support for Schumer when asked during the campaign."
+        }
+      ],
+      "role": "Senator-elect",
+      "analysis": "The available reporting does not establish which candidate he prefers."
+    },
+    {
+      "name": "Juliana Stratton",
+      "state": "IL",
+      "party": "D",
+      "position": "oppose-schumer",
+      "evidence": [
+        {
+          "text": "Stratton’s campaign reaffirmed her opposition to Schumer after the general election.",
+          "source": "roll4"
+        }
+      ],
+      "role": "Senator-elect",
+      "lean": "van-hollen",
+      "leanConfidence": "medium",
+      "analysis": "Van Hollen is the declared alternative to a candidate she has explicitly ruled out. She has not publicly named her pick in the sources reviewed."
+    },
+    {
+      "name": "Tammy Duckworth",
+      "state": "IL",
+      "party": "D",
+      "position": "no-public-position",
+      "evidence": [
+        {
+          "text": "No public position on this contest was found in the sources reviewed.",
+          "source": "drop"
+        }
+      ]
+    },
+    {
+      "name": "Adam Hamilton",
+      "state": "KS",
+      "party": "D",
+      "position": "oppose-schumer",
+      "evidence": [
+        {
+          "text": "Hamilton said after the election that he would not support Schumer for leader.",
+          "source": "roll4"
+        },
+        {
+          "text": "Hamilton discussed wanting a leader who would govern from closer to the center.",
+          "source": "hamilton"
+        }
+      ],
+      "role": "Senator-elect",
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "Opposition to Schumer opens a path for Van Hollen, but Hamilton has expressed interest in a leader closer to the center."
+    },
+    {
+      "name": "Ed Markey",
+      "state": "MA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Markey answered a leadership question by emphasizing discussions about a progressive agenda.",
+          "source": "markey"
+        },
+        {
+          "text": "Reporting describes Markey and Van Hollen’s work with the same group.",
+          "source": "fight"
+        }
+      ],
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "He has worked with Van Hollen to press leadership on strategy. His current public remarks focus on the agenda."
+    },
+    {
+      "name": "Elizabeth Warren",
+      "state": "MA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Before the election, Warren deferred questions about leadership until after the midterms.",
+          "source": "apOct"
+        },
+        {
+          "text": "Reporting describes Warren’s role in pressing for a different Senate strategy.",
+          "source": "fight"
+        },
+        {
+          "source": "warren",
+          "text": "In a Nov. 10 interview, Warren declined to discuss leadership."
+        }
+      ],
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "She worked with Van Hollen on changing the caucus’s strategy. That does not settle her choice of leader."
+    },
+    {
+      "name": "Angela Alsobrooks",
+      "state": "MD",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "NPR listed Alsobrooks among Schumer’s public supporters on Nov. 12, based on her position before her Maryland colleague entered the race.",
+          "source": "npr"
+        }
+      ],
+      "analysis": "Earlier public support. Watch for a fresh statement now that both candidates are running."
+    },
+    {
+      "name": "Chris Van Hollen",
+      "state": "MD",
+      "party": "D",
+      "position": "van-hollen",
+      "evidence": [
+        {
+          "text": "Van Hollen announced his run on Nov. 12. The public tally includes him as a candidate.",
+          "source": "van"
+        }
+      ],
+      "role": "Senator · leadership candidate"
+    },
+    {
+      "name": "Angus King",
+      "state": "ME",
+      "party": "I",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "King publicly endorsed Schumer on Nov. 12. He caucuses with Democrats.",
+          "source": "king"
+        }
+      ],
+      "role": "Independent · Democratic caucus"
+    },
+    {
+      "name": "Troy Jackson",
+      "state": "ME",
+      "party": "D",
+      "position": "oppose-schumer",
+      "evidence": [
+        {
+          "text": "Jackson said he had told Schumer he would support someone else.",
+          "source": "jackson"
+        },
+        {
+          "text": "In a Nov. 13 interview, Jackson said he wanted to judge Van Hollen on his own merits.",
+          "source": "jackson13"
+        }
+      ],
+      "role": "Senator-elect",
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "His opposition to Schumer puts him in play for Van Hollen. He explicitly said he would not back Van Hollen simply because he is the alternative."
+    },
+    {
+      "name": "Abdul El-Sayed",
+      "state": "MI",
+      "party": "D",
+      "position": "van-hollen",
+      "evidence": [
+        {
+          "text": "El-Sayed endorsed Van Hollen in a Nov. 12 statement after previously backing him as a possible challenger.",
+          "source": "roll"
+        }
+      ],
+      "role": "Senator-elect"
+    },
+    {
+      "name": "Elissa Slotkin",
+      "state": "MI",
+      "party": "D",
+      "position": "oppose-schumer",
+      "evidence": [
+        {
+          "text": "Slotkin called for a different plan from any contender seeking her support, and discussed leadership with Van Hollen.",
+          "source": "roll10"
+        }
+      ],
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "She has pushed for change alongside Sanders and is engaging with Van Hollen. Her support depends on what a candidate proposes."
+    },
+    {
+      "name": "Amy Klobuchar",
+      "state": "MN",
+      "party": "D",
+      "position": "no-public-position",
+      "evidence": [
+        {
+          "text": "Klobuchar remains a senator ahead of her transition to the Minnesota governor’s office. No public leadership choice was found.",
+          "source": "mpr"
+        }
+      ],
+      "role": "Senator · governor-elect",
+      "analysis": "Her eventual Senate replacement is separate from the December caucus snapshot."
+    },
+    {
+      "name": "Peggy Flanagan",
+      "state": "MN",
+      "party": "D",
+      "position": "van-hollen",
+      "evidence": [
+        {
+          "text": "Flanagan named Van Hollen as her choice in a Nov. 13 post.",
+          "source": "flanagan"
+        },
+        {
+          "text": "Drop Site updated her entry to reflect the named endorsement.",
+          "source": "drop"
+        },
+        {
+          "source": "tnrTally",
+          "text": "The Nov. 13 named tally also reports Flanagan’s endorsement."
+        }
+      ],
+      "role": "Senator-elect"
+    },
+    {
+      "name": "Scott Colom",
+      "state": "MS",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Colom said he wanted to know his options before committing.",
+          "source": "colom"
+        },
+        {
+          "text": "AP called the Mississippi race for Colom.",
+          "source": "apcolom"
+        },
+        {
+          "source": "colomInterview",
+          "text": "Colom emphasized rural and Southern voices while withholding a choice."
+        }
+      ],
+      "role": "Senator-elect"
+    },
+    {
+      "name": "Roy Cooper",
+      "state": "NC",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "source": "recruits",
+          "text": "Cooper’s campaign withheld a leadership choice when asked in March. No later commitment was verified."
+        }
+      ],
+      "role": "Senator-elect",
+      "analysis": "Recruitment alone is too weak a signal to assign a lean."
+    },
+    {
+      "name": "Chris Pappas",
+      "state": "NH",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Pappas declined to commit when asked on Nov. 12.",
+          "source": "cnn12"
+        },
+        {
+          "text": "Pappas called for new voices after the election.",
+          "source": "roll4"
+        }
+      ],
+      "role": "Senator-elect",
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "He previously called for a new generation of leadership. He has left his choice open."
+    },
+    {
+      "name": "Maggie Hassan",
+      "state": "NH",
+      "party": "D",
+      "position": "no-public-position",
+      "evidence": [
+        {
+          "text": "No public position on this contest was found in the sources reviewed.",
+          "source": "drop"
+        }
+      ]
+    },
+    {
+      "name": "Andy Kim",
+      "state": "NJ",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Kim said he had not yet had the chance to discuss the decision with the caucus.",
+          "source": "cnn10"
+        }
+      ]
+    },
+    {
+      "name": "Cory Booker",
+      "state": "NJ",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Booker praised Schumer’s midterm work and said the caucus would discuss leadership.",
+          "source": "aj"
+        },
+        {
+          "text": "Tracks both his August remarks and his post-election comments.",
+          "source": "drop"
+        }
+      ],
+      "analysis": "His praise for Schumer and earlier talk of generational change point in different directions."
+    },
+    {
+      "name": "Ben Ray Luján",
+      "state": "NM",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Before Van Hollen entered, Luján noted that no challenger was running. He did not commit to a candidate.",
+          "source": "drop"
+        }
+      ]
+    },
+    {
+      "name": "Martin Heinrich",
+      "state": "NM",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "source": "punchbowl",
+          "text": "Heinrich declined to publicly commit to Schumer in post-election reporting."
+        },
+        {
+          "source": "fight",
+          "text": "Earlier reporting placed him in the group working with Van Hollen to change caucus strategy."
+        }
+      ],
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "Working with Van Hollen on caucus strategy is a weak signal. Heinrich has not made a public pledge in the sources reviewed."
+    },
+    {
+      "name": "Catherine Cortez Masto",
+      "state": "NV",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Cortez Masto reaffirmed support after Van Hollen launched his campaign.",
+          "source": "ap"
+        }
+      ]
+    },
+    {
+      "name": "Jacky Rosen",
+      "state": "NV",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Rosen backed Schumer after Van Hollen entered the contest.",
+          "source": "cbs"
+        }
+      ]
+    },
+    {
+      "name": "Chuck Schumer",
+      "state": "NY",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "source": "schumer",
+          "text": "Schumer said on Nov. 12 he was seeking another term and claimed he had enough votes. The public tally includes him as a candidate."
+        }
+      ],
+      "role": "Senator · leadership candidate"
+    },
+    {
+      "name": "Kirsten Gillibrand",
+      "state": "NY",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "NPR reported on Nov. 12 that Gillibrand publicly supports Schumer. She chairs the Senate Democratic campaign committee.",
+          "source": "npr"
+        }
+      ]
+    },
+    {
+      "name": "Sherrod Brown",
+      "state": "OH",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Brown said he would support Schumer after winning Ohio’s special election.",
+          "source": "ap9"
+        }
+      ],
+      "role": "Senator-elect"
+    },
+    {
+      "name": "Jeff Merkley",
+      "state": "OR",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Merkley said the caucus would discuss the leadership question and did not declare a preference.",
+          "source": "oregon"
+        },
+        {
+          "text": "The two worked together on a resolution urging recognition of a Palestinian state.",
+          "source": "merkley"
+        },
+        {
+          "text": "Reporting describes their participation in discussions about caucus strategy.",
+          "source": "fight"
+        },
+        {
+          "source": "chambers",
+          "text": "A Nov. 10 report describes Merkley as open to retaining Schumer, without a commitment."
+        }
+      ],
+      "analysis": "Merkley has worked closely with Van Hollen, but post-election reporting said he appeared open to keeping Schumer. Those signals point in different directions."
+    },
+    {
+      "name": "Ron Wyden",
+      "state": "OR",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "At a Nov. 9 press conference, Wyden declined to comment on Senate leadership changes.",
+          "source": "wyden"
+        },
+        {
+          "text": "Wyden described the party’s improved Senate prospects in an October interview.",
+          "source": "apOct"
+        }
+      ],
+      "analysis": "Wyden previously gave Schumer credit for Democratic prospects. His latest refusal to comment leaves the direction uncertain."
+    },
+    {
+      "name": "John Fetterman",
+      "state": "PA",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Fetterman told reporters on Nov. 11 that he would vote for Schumer, citing his recruitment of successful candidates.",
+          "source": "roster"
+        }
+      ]
+    },
+    {
+      "name": "Jack Reed",
+      "state": "RI",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Reed publicly endorsed Schumer on Nov. 12, citing his effectiveness in the job.",
+          "source": "reed"
+        }
+      ]
+    },
+    {
+      "name": "Sheldon Whitehouse",
+      "state": "RI",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Whitehouse said after the election that winning the majority justified another term for Schumer.",
+          "source": "politico"
+        },
+        {
+          "text": "Drop Site records his post-election statement as backing Schumer.",
+          "source": "drop"
+        }
+      ]
+    },
+    {
+      "name": "Annie Andrews",
+      "state": "SC",
+      "party": "D",
+      "position": "oppose-schumer",
+      "evidence": [
+        {
+          "text": "Asked about Schumer, Andrews called for generational change in congressional leadership.",
+          "source": "andrews"
+        }
+      ],
+      "role": "Senator-elect",
+      "lean": "van-hollen",
+      "leanConfidence": "low",
+      "analysis": "Her call for change points toward a challenger in a two-person race. It does not name Van Hollen."
+    },
+    {
+      "name": "James Talarico",
+      "state": "TX",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Talarico said he wanted to hear Schumer’s plans before taking a position.",
+          "source": "aj"
+        }
+      ],
+      "role": "Senator-elect"
+    },
+    {
+      "name": "Mark Warner",
+      "state": "VA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Warner praised Schumer’s election work and declined to commit on Nov. 10.",
+          "source": "warner"
+        },
+        {
+          "text": "Warner serves as a caucus vice chair in the current Congress.",
+          "source": "leadership"
+        }
+      ],
+      "lean": "schumer",
+      "leanConfidence": "low",
+      "analysis": "His positive assessment and current leadership role give a modest continuity signal."
+    },
+    {
+      "name": "Tim Kaine",
+      "state": "VA",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Kaine said in June that he would continue to support Schumer as leader.",
+          "source": "kaine"
+        },
+        {
+          "text": "The tracker records his Nov. 12 decision not to restate his earlier support.",
+          "source": "roster"
+        }
+      ],
+      "analysis": "His last explicit support predates the challenge. He declined to publicly restate his preference after the midterms."
+    },
+    {
+      "name": "Bernie Sanders",
+      "state": "VT",
+      "party": "I",
+      "position": "van-hollen",
+      "evidence": [
+        {
+          "text": "Sanders endorsed Van Hollen by name after the candidacy was announced.",
+          "source": "ap"
+        }
+      ],
+      "role": "Independent · Democratic caucus"
+    },
+    {
+      "name": "Peter Welch",
+      "state": "VT",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Welch called for change regardless of who leads and said he wanted to see who entered the race.",
+          "source": "welch"
+        }
+      ],
+      "analysis": "His comments were made before Van Hollen announced and left open whether Schumer could deliver that change."
+    },
+    {
+      "name": "Maria Cantwell",
+      "state": "WA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Cantwell gave Schumer credit for the election result and said she would hear out the debate.",
+          "source": "wa"
+        }
+      ],
+      "lean": "schumer",
+      "leanConfidence": "low",
+      "analysis": "Her praise gives a slight signal toward the incumbent. She also explicitly left room to hear colleagues out."
+    },
+    {
+      "name": "Patty Murray",
+      "state": "WA",
+      "party": "D",
+      "position": "unclear",
+      "evidence": [
+        {
+          "text": "Murray said the caucus would discuss and decide privately.",
+          "source": "wa"
+        }
+      ]
+    },
+    {
+      "name": "Tammy Baldwin",
+      "state": "WI",
+      "party": "D",
+      "position": "schumer",
+      "evidence": [
+        {
+          "text": "Baldwin explicitly announced support for Schumer on Nov. 12.",
+          "source": "baldwin"
+        }
+      ]
+    }
+  ]
+}
