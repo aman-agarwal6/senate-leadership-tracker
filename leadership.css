@@ -250,6 +250,14 @@ h1 { margin: 5px 0 8px; font-size: clamp(1.9rem, 4.3vw, 3.1rem); line-height: 1.
 .profile-scenario label { display: grid; gap: 5px; color: var(--muted); font-size: .75rem; font-weight: 600; }
 .profile-scenario select { width: 100%; }
 
+.updates-panel { margin-top: 16px; padding: 15px 18px; }
+.updates-list { margin: 8px 0 0; padding: 0; list-style: none; }
+.updates-list li { display: grid; grid-template-columns: minmax(6.3rem, max-content) minmax(0, 1fr); gap: 4px 12px; padding: 8px 0; line-height: 1.5; font-size: .8rem; }
+.updates-list li + li { border-top: 1px solid var(--line); }
+.updates-list li:last-child { padding-bottom: 0; }
+.updates-list time { color: var(--muted); }
+.updates-list a { font-weight: 650; }
+
 .scenario-panel { display: flex; align-items: center; gap: 15px; margin-top: 16px; padding: 15px 18px; }
 .scenario-panel p, .roster-header p { margin-top: 4px; color: var(--muted); font-size: .79rem; line-height: 1.45; }
 .scenario-summary { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 7px; margin-left: auto; color: var(--muted); font-size: .76rem; }
@@ -319,6 +327,7 @@ input::placeholder { color: var(--muted); }
   .filters { max-width: none; justify-content: flex-start; }
 }
 @media (max-width: 420px) {
+  .updates-list li { grid-template-columns: 1fr; }
   .topbar-inner { gap: 8px; padding-inline: 12px; }
   .topbar-label { display: none; }
   .page { padding-inline: 10px; }

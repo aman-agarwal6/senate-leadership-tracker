@@ -69,6 +69,7 @@ function formatDate(value) {
 }
 
 function labelFor(senator) {
+  if (senator.position === 'schumer' && senator.priorSupport === true) return 'Previously backed Schumer';
   return positions[senator.position];
 }
 
@@ -112,6 +113,10 @@ function choosePositionFilter(position) {
 
 function makeCandidate(position) {
   const total = publicCounts[position];
+  const earlier = roster.filter(senator =>
+    !senator.conditional && senator.position === position && senator.priorSupport === true
+  ).length;
+  const caption = earlier ? (total - earlier) + ' recent · ' + earlier + ' earlier' : 'Public support';
   const button = node('button', 'candidate');
   button.type = 'button';
   button.dataset.position = position;
@@ -120,7 +125,7 @@ function makeCandidate(position) {
   button.append(
     node('span', 'candidate-name', candidates[position]),
     node('strong', 'candidate-number', total),
-    node('span', 'candidate-caption', 'Public support'),
+    node('span', 'candidate-caption', caption),
   );
   button.addEventListener('click', () => choosePositionFilter(position));
   return button;
@@ -207,11 +212,7 @@ function buildRoster() {
     const button = node('button', 'roster-name', senator.name);
     button.type = 'button';
     button.setAttribute('aria-controls', 'senator-panel');
-    button.addEventListener('click', () => {
-      selectSenator(senator);
-      document.querySelector('.profile-name').focus({ preventScroll: true });
-      elements.senatorPanel.scrollIntoView({ block: 'nearest' });
-    });
+    button.addEventListener('click', () => showSenatorProfile(senator));
     nameCell.append(button);
     if (senator.role) nameCell.append(node('span', 'roster-role', senator.role));
 
@@ -382,6 +383,41 @@ function selectSenator(senator) {
   renderProfile();
 }
 
+function showSenatorProfile(senator) {
+  selectSenator(senator);
+  document.querySelector('.profile-name').focus({ preventScroll: true });
+  elements.senatorPanel.scrollIntoView({ block: 'nearest' });
+}
+
+function renderUpdates() {
+  const panel = document.querySelector('#latest-updates');
+  const list = document.querySelector('#updates-list');
+  if (!Array.isArray(data.updates)) return;
+  for (const update of data.updates) {
+    if (!update?.text || !update.date) continue;
+    const entry = node('li');
+    const date = node('time', '', formatDate(update.date));
+    date.dateTime = update.date;
+    const description = node('p');
+    const senator = update.name && roster.find(person => person.name === update.name);
+    if (senator) {
+      const profile = node('button', 'text-button', senator.name);
+      profile.type = 'button';
+      profile.setAttribute('aria-controls', 'senator-panel');
+      profile.addEventListener('click', () => showSenatorProfile(senator));
+      description.append(profile, ' · ');
+    } else if (update.name) {
+      description.append(node('strong', '', update.name), ' · ');
+    }
+    const source = sourceLink(update.source);
+    description.append(update.text);
+    if (source) description.append(' ', source);
+    entry.append(date, description);
+    list.append(entry);
+  }
+  panel.hidden = !list.childElementCount;
+}
+
 function renderScenario() {
   const totalPicks = Object.keys(picks).length;
   const included = roster.filter(senator => !senator.conditional || picks[senator.name]);
@@ -434,6 +470,7 @@ function initialize() {
   renderFilters();
   renderView();
   selectSenator(roster.find(senator => senator.name === 'Chris Van Hollen') || roster[0]);
+  renderUpdates();
   renderScenario();
   renderMethodology();
   elements.tracker.hidden = false;

@@ -2,25 +2,20 @@
   "asOf": "2026-11-13",
   "electionDate": "2026-12-01",
   "caucusNote": "Dec. 1 is the reported date for the secret caucus ballot. A majority of those present and voting is required. If everyone votes, that is 28 of 55, or 29 of 56 if the Alaska seat goes to Mary Peltola and she participates.",
-  "methodology": "Public support includes the candidates and the latest explicit endorsement we found, with older statements dated in the individual notes. Calls for change without a named pick are separate. Research leanings are editorial judgments based on cited statements or working relationships. Low confidence signals are tentative, and names without enough evidence stay open. The secret ballot means the public tally can differ from the actual vote.",
+  "methodology": "Public support includes the candidates and the latest explicit endorsement we found. Earlier endorsements count under the original public-record method and are labeled separately when they have not been reaffirmed after Van Hollen entered. Calls for change without a named pick are separate. Research leans are tentative editorial judgments based on the cited evidence. The ballot is secret.",
   "methodologySources": [
     "rules",
-    "axios",
-    "ap",
+    "axiosUpdate",
+    "apUpdate",
     "roster",
     "drop",
     "alaska",
-    "mpr",
-    "tnrTally"
+    "mpr"
   ],
   "sources": {
     "ap": {
       "label": "Associated Press · leadership challenge",
       "url": "https://apnews.com/article/van-hollen-schumer-senate-democratic-leader-6d74c189cb6c065c9a810a1cf1a53436"
-    },
-    "axios": {
-      "label": "Axios · December 1 caucus vote",
-      "url": "https://www.axios.com/2026/11/13/schumer-van-hollen-senate-majority-leader"
     },
     "rules": {
       "label": "Senate Democratic Conference rules · Rules III and V",
@@ -162,17 +157,9 @@
       "label": "Oregon Capital Chronicle · Ron Wyden press conference",
       "url": "https://oregoncapitalchronicle.com/2026/11/09/oregons-u-s-sen-wyden-says-hell-use-most-powerful-senate-committee-to-undo-republican-cuts/"
     },
-    "oregon": {
-      "label": "KGW · Oregon senators’ interviews",
-      "url": "https://www.kgw.com/article/news/politics/national-politics/medicare-for-all-debt-free-college-oregon-senators-reveal-plans-democratic-controlled-congress/283-542d2850-4219-4323-bd76-8452c71aef5c"
-    },
     "fight": {
       "label": "Vanity Fair · reporting on Senate strategy disagreements",
       "url": "https://www.vanityfair.com/news/story/chuck-schumer-senate-fight-club"
-    },
-    "merkley": {
-      "label": "Van Hollen and Merkley · joint resolution",
-      "url": "https://www.vanhollen.senate.gov/news/press-releases/van-hollen-joins-merkley-colleagues-in-historic-call-for-us-recognition-of-palestinian-statehood"
     },
     "dscc": {
       "label": "DSCC · Schiff and Blunt Rochester roles",
@@ -229,6 +216,34 @@
     "colomInterview": {
       "label": "The New Republic · Scott Colom interview coverage",
       "url": "https://newrepublic.com/post/217987/scott-colom-pushes-back-schumer-recruit-mississippi-senate-win"
+    },
+    "axiosUpdate": {
+      "label": "Axios · Nov. 13 endorsement count",
+      "url": "https://www.axios.com/2026/11/13/democrats-schumer-van-hollen-senate-leader"
+    },
+    "apUpdate": {
+      "label": "Associated Press · Nov. 13 leadership update",
+      "url": "https://apnews.com/article/schumer-van-hollen-democrats-senate-92bcb978c178e99b5c2a5dee2d5e0711"
+    },
+    "merkleyEndorsement": {
+      "label": "Jeff Merkley · official endorsement",
+      "url": "https://www.merkley.senate.gov/merkley-puts-his-support-behind-van-hollen-for-senate-majority-leader/"
+    },
+    "slotkinClip": {
+      "label": "C-SPAN · Slotkin’s Nov. 13 remarks",
+      "url": "https://x.com/cspan/status/2121315064972001671"
+    },
+    "smithEndorsement": {
+      "label": "Tina Smith · Nov. 13 endorsement",
+      "url": "https://x.com/SenTinaSmith/status/2121291521945465077"
+    },
+    "murrayInterview": {
+      "label": "KIRO 7 · Patty Murray interview",
+      "url": "https://www.kiro7.com/news/local/sen-patty-murray-speaks-with-kiro-7-about-goals-dc-2027/YE4KSAZ3JVFC5JFMWSU462FTMM/"
+    },
+    "alaskaUpdate": {
+      "label": "Alaska Public Media · Nov. 12 ballot count",
+      "url": "https://alaskapublic.org/news/politics/elections/2026-11-12/jkt-tops-50-in-alaska-governors-race-as-peltola-extends-senate-lead"
     }
   },
   "senators": [
@@ -238,6 +253,10 @@
       "party": "D",
       "position": "unclear",
       "evidence": [
+        {
+          "text": "Peltola widened her first-choice lead in the Nov. 12 ballot count. Alaska’s Senate race remains uncalled, with ranked-choice tabulation scheduled for Nov. 18 if needed.",
+          "source": "alaskaUpdate"
+        },
         {
           "text": "Alaska’s Senate race is uncalled. Peltola is shown only as a possible member of the incoming caucus.",
           "source": "alaska"
@@ -554,9 +573,14 @@
         {
           "text": "NPR listed Alsobrooks among Schumer’s public supporters on Nov. 12, based on her position before her Maryland colleague entered the race.",
           "source": "npr"
+        },
+        {
+          "text": "Recent coverage distinguishes this earlier endorsement from the current public count.",
+          "source": "axiosUpdate"
         }
       ],
-      "analysis": "Earlier public support. Watch for a fresh statement now that both candidates are running."
+      "analysis": "Earlier public support for Schumer. Axios reported on Nov. 13 that it had not been publicly reaffirmed since Van Hollen entered the race.",
+      "priorSupport": true
     },
     {
       "name": "Chris Van Hollen",
@@ -624,13 +648,19 @@
       "position": "oppose-schumer",
       "evidence": [
         {
+          "text": "On Nov. 13, C-SPAN reported that Slotkin said she would not vote for Schumer and welcomed more candidates into the race.",
+          "source": "slotkinClip"
+        },
+        {
+          "text": "Drop Site’s tally records the refusal. Axios still lists her without a named endorsement.",
+          "source": "drop"
+        },
+        {
           "text": "Slotkin called for a different plan from any contender seeking her support, and discussed leadership with Van Hollen.",
           "source": "roll10"
         }
       ],
-      "lean": "van-hollen",
-      "leanConfidence": "low",
-      "analysis": "She has pushed for change alongside Sanders and is engaging with Van Hollen. Her support depends on what a candidate proposes."
+      "analysis": "Slotkin explicitly ruled out Schumer. She remains open to other candidates, so there is no public commitment to Van Hollen."
     },
     {
       "name": "Amy Klobuchar",
@@ -850,6 +880,10 @@
       "position": "schumer",
       "evidence": [
         {
+          "text": "AP’s Nov. 13 reporting confirms Brown is supporting Schumer.",
+          "source": "apUpdate"
+        },
+        {
           "text": "Brown said he would support Schumer after winning Ohio’s special election.",
           "source": "ap9"
         }
@@ -860,26 +894,17 @@
       "name": "Jeff Merkley",
       "state": "OR",
       "party": "D",
-      "position": "unclear",
+      "position": "van-hollen",
       "evidence": [
         {
-          "text": "Merkley said the caucus would discuss the leadership question and did not declare a preference.",
-          "source": "oregon"
+          "text": "On Nov. 13, Merkley publicly endorsed Chris Van Hollen for Senate majority leader. Earlier reports had described him as uncommitted.",
+          "source": "merkleyEndorsement"
         },
         {
-          "text": "The two worked together on a resolution urging recognition of a Palestinian state.",
-          "source": "merkley"
-        },
-        {
-          "text": "Reporting describes their participation in discussions about caucus strategy.",
-          "source": "fight"
-        },
-        {
-          "source": "chambers",
-          "text": "A Nov. 10 report describes Merkley as open to retaining Schumer, without a commitment."
+          "text": "AP confirmed the endorsement and identifies Sanders, El-Sayed and Flanagan as Van Hollen’s other public backers.",
+          "source": "apUpdate"
         }
-      ],
-      "analysis": "Merkley has worked closely with Van Hollen, but post-election reporting said he appeared open to keeping Schumer. Those signals point in different directions."
+      ]
     },
     {
       "name": "Ron Wyden",
@@ -999,9 +1024,14 @@
         {
           "text": "The tracker records his Nov. 12 decision not to restate his earlier support.",
           "source": "roster"
+        },
+        {
+          "text": "Recent coverage distinguishes this earlier endorsement from the current public count.",
+          "source": "axiosUpdate"
         }
       ],
-      "analysis": "His last explicit support predates the challenge. He declined to publicly restate his preference after the midterms."
+      "analysis": "Earlier public support for Schumer. Axios reported on Nov. 13 that it had not been publicly reaffirmed since Van Hollen entered the race.",
+      "priorSupport": true
     },
     {
       "name": "Bernie Sanders",
@@ -1051,6 +1081,10 @@
       "position": "unclear",
       "evidence": [
         {
+          "text": "In a Nov. 12 interview, Murray said the caucus would discuss its choice after the Alaska result. She did not name a candidate.",
+          "source": "murrayInterview"
+        },
+        {
           "text": "Murray said the caucus would discuss and decide privately.",
           "source": "wa"
         }
@@ -1067,6 +1101,38 @@
           "source": "baldwin"
         }
       ]
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-13",
+      "name": "Jeff Merkley",
+      "text": "Endorsed Van Hollen, bringing his public tally to five including himself.",
+      "source": "merkleyEndorsement"
+    },
+    {
+      "date": "2026-11-13",
+      "name": "Elissa Slotkin",
+      "text": "Ruled out voting for Schumer and welcomed more entrants. She did not endorse Van Hollen.",
+      "source": "slotkinClip"
+    },
+    {
+      "date": "2026-11-13",
+      "name": "Tina Smith",
+      "text": "Endorsed Van Hollen. The incoming caucus tally counts her successor, Peggy Flanagan, for that Minnesota seat.",
+      "source": "smithEndorsement"
+    },
+    {
+      "date": "2026-11-13",
+      "name": "Peggy Flanagan",
+      "text": "Named Van Hollen as her choice after calling for new leadership.",
+      "source": "flanagan"
+    },
+    {
+      "date": "2026-11-12",
+      "name": "Patty Murray",
+      "text": "Remains uncommitted and expects a caucus discussion after Alaska’s result.",
+      "source": "murrayInterview"
     }
   ]
 }
